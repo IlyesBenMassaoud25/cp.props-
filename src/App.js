@@ -9,25 +9,25 @@ function App() {
   };
   return (
     <>
-   <header id="home">
+   {/* <header id="home">
     <Header/>
-    </header>
-    <body style={{margin:"150px 100px",fontSize:"1.2rem"}}>
+    </header> */}
+    <div style={{margin:"150px 100px",fontSize:"1.2rem"}}>
     <h1>Self-Profile </h1> 
       <FullName firstName="Ilyes" lastName="Ben Massaoud">
       
             </FullName>
-      <br/>
+      {/* <br/> */}
       <div style={{border:"black double",  marginTop:"25px",}} id="about">
       <Bio FullName="Ilyes Ben Massoaud" Age="16"  Interests="FootBall player,Farming ,Taking care of animals, Travelling "  />
       </div>
-      <br/>
+      {/* <br/> */}
       <div id="profession"><Profession/></div>
       <button onClick={handleEvent}>User</button>
-    </body>
-    <footer id="contact">
+    </div>
+    {/* <footer id="contact">
       <Footer/>
-      </footer>
+      </footer> */}
 
     </>
   );

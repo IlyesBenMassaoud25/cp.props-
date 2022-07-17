@@ -7,8 +7,8 @@
              
              <div className="media-body">
              <h5 className="mt-0" style={{textTransform: "uppercase",margin:"10px",}}>{this.props.FullName}</h5>
-             <span style = {myStyle}>Age:</span> {this.props.Age} <br/>
-             <span style= {myStyle}>Interests:</span>{this.props.Interests}<br/>
+             <span style = {myStyle}>Age:</span> {this.props.Age} 
+             <span style= {myStyle}>Interests:</span>{this.props.Interests}
              <span style= {myStyle}>Bio:</span>{this.props.FullName} is {this.props.Age} years old, I like {this.props.Interests}
              </div>
          </div>
